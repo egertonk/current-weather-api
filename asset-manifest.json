@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/current-weather-api/static/css/main.b0e9c641.chunk.css",
+    "main.css": "/current-weather-api/static/css/main.7d449add.chunk.css",
     "main.js": "/current-weather-api/static/js/main.f6c30d69.chunk.js",
     "main.js.map": "/current-weather-api/static/js/main.f6c30d69.chunk.js.map",
     "runtime-main.js": "/current-weather-api/static/js/runtime-main.da34e439.js",
@@ -12,7 +12,7 @@
     "static/js/3.9682a938.chunk.js.map": "/current-weather-api/static/js/3.9682a938.chunk.js.map",
     "index.html": "/current-weather-api/index.html",
     "static/css/2.8c0e6b67.chunk.css.map": "/current-weather-api/static/css/2.8c0e6b67.chunk.css.map",
-    "static/css/main.b0e9c641.chunk.css.map": "/current-weather-api/static/css/main.b0e9c641.chunk.css.map",
+    "static/css/main.7d449add.chunk.css.map": "/current-weather-api/static/css/main.7d449add.chunk.css.map",
     "static/js/2.9f16cc9d.chunk.js.LICENSE.txt": "/current-weather-api/static/js/2.9f16cc9d.chunk.js.LICENSE.txt",
     "static/media/App.css": "/current-weather-api/static/media/background.cee0dfa0.jpeg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.da34e439.js",
     "static/css/2.8c0e6b67.chunk.css",
     "static/js/2.9f16cc9d.chunk.js",
-    "static/css/main.b0e9c641.chunk.css",
+    "static/css/main.7d449add.chunk.css",
     "static/js/main.f6c30d69.chunk.js"
   ]
 }
