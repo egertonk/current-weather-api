@@ -9,7 +9,7 @@ body{
   width: auto;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: cover;
 }
 
 .location-name{
@@ -58,7 +58,7 @@ h3, .headers{
 }
 
 a{
-  color: rgb(209, 209, 212);
+  color: #095483;
 }
 
 .bold-it{
