@@ -15,10 +15,11 @@ body{
 .location-name{
   font-weight: bold;
   font-size: 150%;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 .temperature {
   font-size: 150%;
+  margin-top: -10%;
 }
 
 .for_f{
@@ -39,8 +40,15 @@ body{
 }
 
 img{
-  width: 15%;
-  height: inherit;
+  width: 30%;
+}
+
+.imageDiv{
+  margin-top: -10%
+}
+
+.common{
+  font-size: 120%;
 }
 
 h3, .headers{
@@ -48,13 +56,13 @@ h3, .headers{
   font-size: 150%;
 }
 
-.App-footer{
+.ape-footer{
   background-color: white;
   color: black;
-  position: fixed;
-  bottom: 0px;
-  width: -webkit-fill-available;
-  font-weight: 500;
+}
+
+.feels_like{
+  margin-bottom: 9%;
 }
 
 .col {
@@ -85,6 +93,11 @@ h2{
   }
   body{
     background-size: initial;
+  }
+  .location-name {
+    font-weight: bold;
+    font-size: 150%;
+    margin-top: 10%;
   }
 }
 

@@ -60,7 +60,7 @@ export function WeatherLocation() {
               <>
               <div> 
                   <p className="location-name">{Data.location.region}, {Data.location.country}</p>
-                  <div class="d-flex flex-row">
+                  <div class="d-flex flex-row imageDiv">
                     <div className="col">
                       <img src={Data.current.condition.icon} alt="Weather Picture" />
                     </div>
@@ -81,33 +81,58 @@ export function WeatherLocation() {
                     </div>
                   </div>
 
-                  <div class="d-flex flex-row updated-text">
+                  <div class="d-flex flex-row updated-text common">
                     <div className="col">
                       Updated as of {Data.location.localtime} 
                     </div>
                   </div>
 
-                  <div class="d-flex flex-row humidity">
+                  <div class="d-flex flex-row humidity common">
                     <div className="col">
                       Humidity {Data.current.humidity} 
                     </div>
                   </div>
 
-                  <div class="d-flex flex-row ">
+                  <div class="d-flex flex-row common">
                     <div className="col">
                       Wind {Data.current.wind_mph} mph 
                     </div>
                   </div>
 
-                  <div class="d-flex flex-row ">
+                  <div class="d-flex flex-row common">
                     <div className="col">
                       Visibility {Data.current.vis_miles} miles 
                     </div>
                   </div>
 
-                  <div class="d-flex flex-row ">
+                  <div class="d-flex flex-row common feels_like">
                     <div className="col">
                       Feels Like {Data.current.feelslike_f} F - {Data.current.feelslike_c} C
+                    </div>
+                  </div>
+
+                  <div class="ape-footer">
+                    <div class="d-flex flex-row ">
+                      <div class="col">
+                        App Provided By Egerton...
+                      </div>
+                    </div>
+
+                    <div class="d-flex flex-row ">
+                      <div class="col">
+                        See these other projects
+                      </div>
+                    </div>
+                    
+                    <div class="d-flex flex-row">
+                      <div class="col">
+                        <a className="project-links" rel="noopener" href="https://egertonk.github.io/react-wise-spender/" >React-Wise-Spender</a>  
+                        &nbsp; <a className="project-links" rel="noopener" href="https://egertonk.github.io/react-todo-list/" >React-Todo-List</a>
+                        &nbsp; <a className="project-links" rel="noopener" href="http://mason.gmu.edu/~eduring/IT331_PROJECT/index.html" >Front End Project</a>
+                        &nbsp; <a className="project-links" rel="noopener" href="http://mason.gmu.edu/~eduring/bangladesh/Home.html" >Bangladesh Web Project</a>
+                        &nbsp; <a className="project-links" rel="noopener" href="https://egertonk.github.io/react-api-news/" >React-Api-News</a>
+                        &nbsp; <a className="project-links" rel="noopener" href="https://egertonk.github.io/live-stocks-api/" >React-Api-Stocks</a>
+                      </div>
                     </div>
                   </div>
               </div>
