@@ -28,6 +28,7 @@ export function WeatherLocation() {
             .then(resp => resp.json())
             .then(resp => {
               setData(resp)
+              console.log("--------->" + JSON.stringify(resp));
             })
           },
           // Note: it's important to handle errors here

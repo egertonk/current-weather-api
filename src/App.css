@@ -19,7 +19,7 @@ body{
 }
 .temperature {
   font-size: 150%;
-  margin-top: -10%;
+  margin-top: -5%;
 }
 
 .for_f{
@@ -44,7 +44,7 @@ img{
 }
 
 .imageDiv{
-  margin-top: -10%
+  margin-top: -5%
 }
 
 .common{
